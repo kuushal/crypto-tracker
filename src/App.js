@@ -14,7 +14,7 @@ function App() {
       .then((response) => { setListOfCoins(response.data.coins) })
   }, []);
 
-  const filteredCoins=listOfCoins.filter((coin)=>{
+  const filteredCoins = listOfCoins.filter((coin) => {
     return coin.name.toLowerCase().includes(searchWord.toLowerCase());
   })
 
