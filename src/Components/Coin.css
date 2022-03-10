@@ -1,0 +1,13 @@
+*{
+    font-family: monospace;
+}
+.coin-card{
+    background-color: lightblue;
+    margin: 1rem;
+    padding: 1rem;
+    letter-spacing: 1px;
+}
+
+.logo{
+    max-width: 60px;
+}
